@@ -1,0 +1,88 @@
+*{
+    margin: 0; /*remover margens padrões*/
+    padding: 0; /*remover espaçamentos padrões*/
+    box-sizing: border-box; /*para o padding e border n aumentarem o tamanho do elemento*/
+    font-family: Arial, sans-serif; /*fonte padrão*/
+}
+
+body {
+    background-image: url("/DEVCLUB/img/mapa.jpg"); /*caminho da imagem de fundo*/
+    background-size: cover;     /*cobrir toda a tela*/
+    background-position: center; /*centralizar a imagem*/
+     height: 100vh; /*altura total da tela*/
+    display: flex; /*mexer para onde quiser os elementos*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    
+}
+
+.caixa-maior { 
+    background-color: #000000f2;  /*cor de fundo da caixa*/
+    width: 600px; /*largura da caixa*/
+    border-radius: 25px; /*bordas arredondadas*/
+    padding: 20px; /*espaçamento interno*/
+}
+
+.input-texto { 
+    width: 100%; /*largura total da caixa*/
+    height: 100px; /*altura da caixa de texto*/
+    border: none; /*remover borda padrão*/
+    outline: none; /*remover contorno ao clicar*/
+    background-color: #ffffff1a; /*cor de fundo da caixa de texto*/
+    border-radius: 15px; /*bordas arredondadas*/
+    color: white; /*cor do texto*/
+    font-size: 16px; /*tamanho da fonte*/
+    padding: 15px; /*espaçamento interno*/
+}
+
+.idioma {
+    width: 100%; /*largura da caixa de seleção*/
+    border: none; /*remover borda padrão*/
+    border-radius: 20px; /*bordas arredondadas*/
+    outline: none; /*remover contorno ao clicar*/
+    padding: 10px; /*espaçamento interno*/
+    background-color: #ffffff1a; /*cor de fundo da caixa de seleção*/
+    color: white; /*cor do texto*/
+    cursor: pointer; /*mudar o cursor ao passar por cima*/
+    option {
+        border-radius: 20px; /*bordas arredondadas das opções*/
+        background: #ffffff1a; /*cor de fundo das opções*/
+        color: black; /*cor do texto das opções*/
+    }
+}
+
+button {
+    border: none; /*remover borda padrão*/
+    border-radius: 20px; /*bordas arredondadas*/
+    padding: 10px 20px; /*espaçamento interno*/
+    background-color: #ffffff1a; /*cor de fundo do botão*/
+    cursor: pointer; /*mudar o cursor ao passar por cima*/
+}
+
+.controle {
+    display: flex; /*disposição em linha*/
+    align-items: center; /*alinhamento vertical*/
+    gap: 10px; /*espaçamento entre os elementos*/
+    margin-top: 20px; /*espaçamento superior*/
+    margin-bottom: 20px; /*espaçamento inferior*/
+}
+
+.resultado {
+    background-color: #ffffff1a; /*cor de fundo da caixa de resultado*/
+    border-radius: 15px; /*bordas arredondadas*/
+    padding: 15px; /*espaçamento interno*/
+    color: white; /*cor do texto*/
+    margin-top: 20px; /*espaçamento superior*/
+}
+
+.titulo-resultado {
+    color: #ffffff99; /*cor do título de resultado*/
+    font-size: 14px; /*tamanho da fonte*/
+    margin-bottom: 14px; /*espaçamento inferior*/  
+}
+
+.tradução {
+    color: white; /*cor do texto*/
+    margin-top: 10px; /*espaçamento superior*/
+    font-size: 16px; /*tamanho da fonte*/
+}
