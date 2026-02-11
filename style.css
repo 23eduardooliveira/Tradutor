@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("/DEVCLUB/img/mapa.jpg"); /*caminho da imagem de fundo*/
+    background-image: url("/img/mapa.jpg"); /*caminho da imagem de fundo*/
     background-size: cover;     /*cobrir toda a tela*/
     background-position: center; /*centralizar a imagem*/
      height: 100vh; /*altura total da tela*/
@@ -86,3 +86,4 @@ button {
     margin-top: 10px; /*espaçamento superior*/
     font-size: 16px; /*tamanho da fonte*/
 }
+
